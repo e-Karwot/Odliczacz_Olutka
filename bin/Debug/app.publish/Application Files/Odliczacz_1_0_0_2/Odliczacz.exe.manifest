@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Odliczacz.exe" version="1.0.0.2" publicKeyToken="7e77b1fa4abd7c41" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Odliczacz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Odliczacz.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Odliczacz.exe" size="11744">
+      <assemblyIdentity name="Odliczacz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gDN9y59X2ys++MlyulsHQDRJa7ni2gqYbqsoYU8bocQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Odliczacz.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DH447O8\ekarw" issuerKeyHash="882fea22570e7d49e4b1e58a5387005b9a0b4a0a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QDcq+oCAzIAg9/WZarYVFZCmvzcJiOM3ZFyVA2jRMT0=</DigestValue></Reference></SignedInfo><SignatureValue>AR0TrvUko9UKh1VeMPQlz3wVkWKCZyRYxOZziJsWDjkG32nFYB0iRO4rW99fo+sVTAa2Zb5KVd/EWgmpJeKmE8kED/+6BVq4qP11vYih+ex1xMsjXMapP29KGzWWfJxN3y66APRfFVThVlUxuY1MHRNSmGSKio+wLDh7k1HlRis=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zyoFYYawHeI1uznp+8IV/eMjzZjpfOTosnOM4mBia6k8qpo2pfnOyNSg6ENlJhG2eUX1HgiZ+5iuHyf/zfWmOHUdEfZnqmzOyDlDFq7Uq4Cfytpa57kFgvIbdkUq/1td3OZlhM3CKPbC4C73XsfXbPmptPLbffRWWuyPI8k1GsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d31d16803955c6437e3880937bfa6901515b66a99f5f72080cc8080fa2a3740" Description="" Url=""><as:assemblyIdentity name="Odliczacz.exe" version="1.0.0.2" publicKeyToken="7e77b1fa4abd7c41" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DH447O8\ekarw</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Cx0duwUMiT4pIl+K6vHVaawiJh1g10OfgFiwqMO7LaU=</DigestValue></Reference></SignedInfo><SignatureValue>YqGH7pvHO29aK/anHV1Qi2gtCRcmUZjjTGKiir+FzeqNs2Q44m+lUOcuJu2RlwChc6Wgl4US0oqAO5dBhl44MAQ0jiFxHrDXIwxwB4MBEotj8YOe4r6CkPLjINQasZ7jm8w8/KGwt+5eH5LHCZRj9AQlhuIMmfwYwDFuBp7PgCU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zyoFYYawHeI1uznp+8IV/eMjzZjpfOTosnOM4mBia6k8qpo2pfnOyNSg6ENlJhG2eUX1HgiZ+5iuHyf/zfWmOHUdEfZnqmzOyDlDFq7Uq4Cfytpa57kFgvIbdkUq/1td3OZlhM3CKPbC4C73XsfXbPmptPLbffRWWuyPI8k1GsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFUYrHZEqjqpPk/wLG2wHRTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQASAA0ADQANwBPADgAXABlAGsAYQByAHcwHhcNMjEwMzMxMTc0MTA1WhcNMjIwMzMxMjM0MTA1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQASAA0ADQANwBPADgAXABlAGsAYQByAHcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM8qBWGGsB3iNbs56fvCFf3jI82Y6Xzk6LJzjOJgYmupPKqaNqX5zsjUoOhDZSYRtnlF9R4ImfuYrh8n/831pjh1HRH2Z6pszsg5Qxau1KuAn8raWue5BYLyG3ZFKv9bXdzmZYTNwij2wuAu917H12z5qbTy2330VlrsjyPJNRrFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAERmQjCJruvGwhbS4Nf+22Pkmv7vvtwpWle9irbrCo7Yis3Ok/KNsQ2ksMhD655Wleex8liTxqMdCKZumyO18ZH0CgvxXZSZhx/tqQK4weGNs+n+kmBJmjgckYcaIBaVqTb9yEOpn4xkWD1ec06Np9V53n7FC2Uq5le4GP1Jc7tw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

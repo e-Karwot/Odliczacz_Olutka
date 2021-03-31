@@ -1,0 +1,14 @@
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\bin\Debug\Odliczacz.exe.config
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\bin\Debug\Odliczacz.exe
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\bin\Debug\Odliczacz.pdb
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.csprojAssemblyReference.cache
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.Form1.resources
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.Properties.Resources.resources
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.csproj.GenerateResource.cache
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.csproj.CoreCompileInputs.cache
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.exe
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.pdb
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\bin\Debug\Odliczacz.exe.manifest
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\bin\Debug\Odliczacz.application
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.exe.manifest
+C:\Users\ekarw\source\repos\Odliczacz\Odliczacz\obj\Debug\Odliczacz.application
